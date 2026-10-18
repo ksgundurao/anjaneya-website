@@ -4,5 +4,4 @@ document
 .getElementById("navMenu")
 .classList
 .toggle("show");
-
 }
