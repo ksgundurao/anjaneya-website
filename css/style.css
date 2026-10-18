@@ -2,16 +2,16 @@ body{
 margin:0;
 font-family:Arial,sans-serif;
 line-height:1.6;
-background:#fffdf5;
+background:#fffdf8;
 }
 
 header{
 background:#8B0000;
 color:white;
+padding:15px 20px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:15px;
 }
 
 .logo{
@@ -21,19 +21,27 @@ font-size:20px;
 
 #navMenu{
 display:flex;
-list-style:none;
 gap:20px;
+list-style:none;
+margin:0;
+padding:0;
 }
 
 #navMenu a{
 color:white;
 text-decoration:none;
+font-weight:bold;
 }
 
 .hero{
 background:#d4af37;
-text-align:center;
 padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
 }
 
 .btn{
@@ -46,9 +54,16 @@ border-radius:5px;
 }
 
 section{
-padding:40px 20px;
+padding:50px 20px;
 max-width:1000px;
 margin:auto;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
 .gallery-grid{
@@ -67,17 +82,18 @@ border-radius:10px;
 
 footer{
 background:#8B0000;
-color:white;
 text-align:center;
 padding:20px;
+color:white;
 }
 
 .menu-toggle{
 display:none;
-border:none;
 background:none;
+border:none;
+font-size:30px;
 color:white;
-font-size:28px;
+cursor:pointer;
 }
 
 @media(max-width:768px){
@@ -89,7 +105,7 @@ display:block;
 #navMenu{
 display:none;
 position:absolute;
-top:60px;
+top:70px;
 left:0;
 right:0;
 background:#8B0000;
