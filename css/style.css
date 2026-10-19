@@ -42,8 +42,22 @@ text-align:center;
 }
 
 .hero h1{
-margin-bottom:10px;
-font-size:40px;
+    font-size:3rem;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.hero h2{
+    text-shadow:2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.hero p{
+    text-shadow:1px 1px 6px rgba(0,0,0,0.8);
+}
+.hero-content{
+    background:rgba(0,0,0,0.35);
+    padding:30px;
+    border-radius:15px;
+    backdrop-filter:blur(2px);
 }
 
 .btn{
