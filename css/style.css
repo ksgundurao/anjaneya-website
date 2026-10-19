@@ -35,10 +35,14 @@ text-decoration:none;
 font-weight:bold;
 }
 
-.hero{
-background:linear-gradient(#d4af37,#f3dc83);
-padding:80px 20px;
-text-align:center;
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
 }
 
 .hero h1{
